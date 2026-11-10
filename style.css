@@ -6,7 +6,7 @@
 #nav2{
     display: flex;
     justify-content: space-between;
-    padding: 20px 40px;
+    padding: 20px 10px;
     align-items: center;
 }
 body {
@@ -15,19 +15,63 @@ body {
 a{
     text-decoration: none;
 }
+
+.menu-icon{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 0px;
+    padding-left: 20px;
+}
+.menu-icon .line{
+    width: 18px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 2px;
+}
 #BrandName{
     color: #fff;
     font-weight: 900;
     font-size: large;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    padding-left: 15px;
+    margin-left: 15px;
+    color: #fff;
 }
 
 
 #navbar{
     display: flex;
-    gap: 10px;
+    gap: 15px;
+}
+
+#navbar a{
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    padding-right: 15px;
+    margin-right: 15px;
+    color: #fff;
 }
 .nav{
     color: #fff;
+}
+
+.nav-container{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 2px;
+}
+
+.box4{
+    background-color: #fff;
+    width: 1365px;
+    height: 85px;
+    margin-top: 147px;
 }
 #firstBtn{
     color: #fff;
@@ -37,41 +81,36 @@ a{
     font-weight: 800;
 padding: 10px 20px;
 position: absolute;
-bottom: 20px;
-right: 20px;
+bottom: 8px;
+right: 5px;
 }
 h1{
     color: #fff;
     font-size: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 250px;
+    text-align: center;
+    margin-top: 155px;
 }
+
 .circle{
     display: flex;
-    gap: 5px;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 10px;
 }
-.dots{
+
+.circle div{
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    display: inline-block;
 }
-.first-circle{
-    background-color: red;
-}
-.second-circle{
-    background-color: yellow;
-}
-.third-circle{
-    background-color: blue;
-}
+ 
+.box1{background-color: red;}
+.box2{background-color: yellow;}
+.box3{background-color: blue;}
+
 p{
     color: #fff;
     font-size: large;
-    display: flex;
-    min-height: 200px;
     width: 450px;
     line-height: 2.0;
     margin: auto;
